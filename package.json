@@ -1,0 +1,28 @@
+{
+  "name": "macaca-reporter-standalone-sample",
+  "version": "1.0.0",
+  "description": "macaca reporter sample",
+  "keywords": [
+    "macaca",
+    "macaca-reporter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/macaca-sample/macaca-reporter-standalone-sample.git"
+  },
+  "dependencies": {
+    "macaca-reporter": "*"
+  },
+  "devDependencies": {
+    "pre-commit": "*"
+  },
+  "scripts": {
+    "test": "make test",
+    "jshint": "make jshint"
+  },
+  "pre-commit": [
+    "jshint"
+  ],
+  "homepage": "https://github.com/macaca-sample/macaca-reporter-standalone-sample",
+  "license": "MIT"
+}
