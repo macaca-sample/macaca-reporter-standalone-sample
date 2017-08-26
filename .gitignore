@@ -6,6 +6,7 @@ Thumbs.db
 coverage/
 .project
 build/
+reports/
 *.sw*
 *.un~
 *.png
