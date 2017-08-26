@@ -21,6 +21,7 @@
     "macaca-reporter": "*"
   },
   "devDependencies": {
+    "jshint": "^2.9.5",
     "nodemon": "^1.11.0",
     "pre-commit": "*"
   },
