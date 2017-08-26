@@ -10,15 +10,19 @@
     "type": "git",
     "url": "git://github.com/macaca-sample/macaca-reporter-standalone-sample.git"
   },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "make test",
+    "jshint": "make jshint"
+  },
   "dependencies": {
+    "koa": "^1.4.0",
+    "macaca-utils": "*",
     "macaca-reporter": "*"
   },
   "devDependencies": {
+    "nodemon": "^1.11.0",
     "pre-commit": "*"
-  },
-  "scripts": {
-    "test": "make test",
-    "jshint": "make jshint"
   },
   "pre-commit": [
     "jshint"
