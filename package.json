@@ -16,9 +16,11 @@
     "jshint": "make jshint"
   },
   "dependencies": {
+    "detect-port": "^1.2.1",
     "koa": "^1.4.0",
+    "macaca-reporter": "*",
     "macaca-utils": "*",
-    "macaca-reporter": "*"
+    "socket.io": "^2.0.3"
   },
   "devDependencies": {
     "jshint": "^2.9.5",
