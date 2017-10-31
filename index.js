@@ -44,7 +44,7 @@ app.use(function * () {
     setInterval(() => {
       console.log('broadcast');
       mockData.stats.passes++;
-      socket.broadcast.emit('update reporter', mockData);
+      io.sockets.emit('update reporter', mockData);
     }, 1000);
 
     socket.on('disconnect', function() {
