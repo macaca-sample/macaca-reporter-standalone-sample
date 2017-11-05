@@ -17,8 +17,9 @@
   },
   "dependencies": {
     "detect-port": "^1.2.1",
+    "ipv4": "^1.0.1",
     "koa": "^1.4.0",
-    "macaca-reporter": "*",
+    "macaca-reporter": "^1.0.18",
     "macaca-utils": "*",
     "socket.io": "^2.0.3"
   },
